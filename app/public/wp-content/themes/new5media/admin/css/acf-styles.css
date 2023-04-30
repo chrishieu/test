@@ -1,0 +1,19 @@
+body #editor {
+    background: #f3f4f5;
+}
+
+#editor .acf-field.block-name .acf-input p {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 1.1em;
+    margin: 0;
+}
+
+#editor .acf-field.block-name .acf-label {
+    display: none;
+}
+
+.editor-styles-wrapper .wp-block [data-block] {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}

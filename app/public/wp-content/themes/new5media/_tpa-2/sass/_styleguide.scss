@@ -1,0 +1,85 @@
+// Guide Basics
+
+.styleguide-header {
+	//border-bottom: 1px solid #DCDCDC;	
+	position: relative;
+	padding: $margin;
+	@media screen and (max-width: $bp_small) {
+		padding: $margin_small;
+	}
+	.viewport {
+		color: #999;
+	}
+}
+
+.styleguide-item {
+	border-bottom: 1px solid #DCDCDC;
+	position: relative;
+	padding: $margin $margin $margin/3;
+	@media screen and (max-width: $bp_small) {
+		padding: $margin_small*3 $margin_small $margin_small;
+	}	
+}
+
+.styleguide-label {
+	position: absolute;
+	font-size: 10px;
+	text-transform: uppercase;
+	font-family: 'Studio 6';
+	color: #ff3333;
+	display: block;
+	left: 3rem;
+	top: .8rem;
+	@media screen and (max-width: $bp_small) {
+		left: 1rem;
+	}	
+
+}
+
+
+// Labels
+
+.heading-01:before {
+	@extend .styleguide-label;
+	content: 'Heading 01';
+}
+
+.heading-02:before {
+	@extend .styleguide-label;
+	content: 'Heading 02';
+}
+
+.heading-03:before {
+	@extend .styleguide-label;
+	content: 'Heading 03';
+}
+
+.paragraph:before {
+	@extend .styleguide-label;
+	content: 'Body/Paragraph';
+}
+
+.paragraph-medium:before {
+	@extend .styleguide-label;
+	content: 'Body/Paragraph - Medium';
+}
+
+.paragraph-small:before {
+	@extend .styleguide-label;
+	content: 'Body/Paragraph - Small';
+}
+
+.paragraph-serif:before {
+	@extend .styleguide-label;
+	content: 'Body/Paragraph Serif';
+}
+
+.label:before {
+	@extend .styleguide-label;
+	content: 'Label/Category';
+}
+
+button:before {
+	@extend .styleguide-label;
+	content: 'Button';
+}

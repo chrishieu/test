@@ -1,0 +1,242 @@
+@font-face {
+  font-family: 'Five Star Bold';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/wp-content/themes/new5media/www/fonts/FiveStar-Bold.eot?#iefix') format('embedded-opentype'),
+       url('/wp-content/themes/new5media/www/fonts/FiveStar-Bold.woff2') format('woff2'),
+       url('/wp-content/themes/new5media/www/fonts/FiveStar-Bold.woff') format('woff'),
+       url('/wp-content/themes/new5media/www/fonts/FiveStar-Bold.ttf') format('truetype'),
+       url('/wp-content/themes/new5media/www/fonts/FiveStar-Bold.svg#Five Star Bold') format('svg');
+}
+
+@font-face {
+  font-family: 'Five Gothic';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/wp-content/themes/new5media/www/fonts/FiveGothic-Regular.eot?#iefix') format('embedded-opentype'),
+       url('/wp-content/themes/new5media/www/fonts/FiveGothic-Regular.woff2') format('woff2'),
+       url('/wp-content/themes/new5media/www/fonts/FiveGothic-Regular.woff') format('woff'),
+       url('/wp-content/themes/new5media/www/fonts/FiveGothic-Regular.ttf') format('truetype'),
+       url('/wp-content/themes/new5media/www/fonts/FiveGothic-Regular.svg#Five Gothic') format('svg');
+}
+
+@font-face {
+  font-family: 'Five Gothic DemiBold';
+  font-style: normal;
+  font-weight: 600;
+  src: url('/wp-content/themes/new5media/www/fonts/FiveGothic-DemiBold.eot?#iefix') format('embedded-opentype'),
+       url('/wp-content/themes/new5media/www/fonts/FiveGothic-DemiBold.woff2') format('woff2'),
+       url('/wp-content/themes/new5media/www/fonts/FiveGothic-DemiBold.woff') format('woff'),
+       url('/wp-content/themes/new5media/www/fonts/FiveGothic-DemiBold.ttf') format('truetype'),
+       url('/wp-content/themes/new5media/www/fonts/FiveGothic-DemiBold.svg#Five Gothic DemiBold') format('svg');
+}
+
+@font-face {
+  font-family: 'Five Star';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/wp-content/themes/new5media/www/fonts/FiveStar-Bold.eot?#iefix') format('embedded-opentype'),
+       url('/wp-content/themes/new5media/www/fonts/FiveStar-Bold.woff2') format('woff2'),
+       url('/wp-content/themes/new5media/www/fonts/FiveStar-Bold.woff') format('woff'),
+       url('/wp-content/themes/new5media/www/fonts/FiveStar-Bold.ttf') format('truetype'),
+       url('/wp-content/themes/new5media/www/fonts/FiveStar-Bold.svg#Five Star') format('svg');
+}
+
+.give-embed-form, .give-embed-receipt {
+  max-width: 100%;
+}
+
+.give-form-templates {
+  font-family: 'Five Gothic';
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+}
+
+.give-embed-form {
+  border-radius: 0;
+  color: #000;
+  box-shadow: 0 0 5px rgba(0, 0, 0, .05);
+}
+
+.give-section.introduction > * {
+  margin-right: unset;
+  margin-left: unset;
+}
+
+.give-embed-form .container {
+  display: flex;
+  align-items: stretch;
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 40px;
+  padding-left: 30px;
+}
+
+.give-embed-form .left {
+  flex-basis: calc(100% / 3);
+  order: 1;
+  display: flex;
+  align-items: stretch;
+}
+
+.give-embed-form .left .image {
+  position: relative;
+  padding: 0;
+  margin-top: 15px;
+  display: flex;
+  align-items: stretch;
+}
+
+.give-embed-form .left .image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  object-fit: contain;
+  transform: rotateY(180deg);
+  object-position: center top;
+  margin: auto;
+}
+
+.give-embed-form .right {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.give-btn {
+  background-color: #ffd900 !important;
+  border-color: #ffd900 !important;
+}
+
+.introduction {
+  background-color: #ffd900;
+  text-align: left;
+}
+
+.introduction.slide-in-left ~ .form-footer .secure-notice {
+  margin-top: 0;
+  border-top-color: rgba(40, 40, 40, .2);
+  background-color: #ffd900;
+  color: rgba(40, 40, 40, .5);
+}
+
+.introduction .headline {
+  margin-top: 0;
+  margin-bottom: 10px;
+  max-width: none;
+  font-family: 'Five Star Bold';
+  font-size: 24px;
+  line-height: 50px;
+}
+
+.introduction .description {
+  margin: 0;
+  color: #000;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.introduction .description + .advance-btn {
+  margin-top: 25px !important;
+  background-color: #000 !important;
+}
+
+.introduction .give-btn {
+  margin-top: 25px;
+  margin-bottom: 0;
+  min-width: 207px;
+  border-color: #000 !important;
+  border-radius: 5px;
+  padding: 11px 20px !important;
+  justify-content: space-between;
+  background-color: #000 !important;
+  color: #fff;
+  font-family: 'Five Gothic DemiBold';
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 16px;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  transition: all .4s;
+}
+
+.introduction .give-btn i {
+  display: none;
+}
+
+.introduction .give-btn:after {
+  content: '';
+  background-image: url('/wp-content/themes/new5media/www/img/arrow-white.svg');
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  width: 14px;
+  height: 9px;
+  position: absolute;
+  right: 19px;
+  top: 14px;
+}
+
+.introduction .give-btn:hover {
+  background-color: transparent !important;
+  color: #000;
+}
+
+.introduction .give-btn:hover:after {
+  background: url('/wp-content/themes/new5media/www/img/arrow-black.svg') left center no-repeat;
+}
+
+.introduction .income-stats {
+  background-color: unset;
+}
+
+.choose-amount .give-donation-levels-wrap .give-donation-level-btn,
+.choose-amount .give-btn.advance-btn,
+.payment .give-submit {
+  box-shadow: none;
+  border-color: #000 !important;
+  background-color: #000 !important;
+  color: #ffd900 !important;
+  filter: none;
+}
+
+.choose-amount .give-donation-levels-wrap .give-donation-level-btn:hover,
+.choose-amount .give-btn.advance-btn:hover,
+.choose-amount .give-donation-level-btn.give-default-level,
+.payment .give-submit:hover {
+  border-color: #ffd900 !important;
+  background-color: #ffd900 !important;
+  color: #000 !important;
+}
+
+.form-footer .secure-notice {
+  font-family: 'Five Gothic';
+  font-size: 9px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 480px) {
+  .give-embed-form .container {
+    padding-top: 25px;
+    padding-right: 22px;
+    padding-left: 22px;
+  }
+
+  .give-embed-form .left {
+    flex-basis: 65px;
+    padding-top: 10px;
+  }
+
+  .give-embed-form .left .image {
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+
+  .give-embed-form .left .image img {
+    object-position: left top;
+  }
+}

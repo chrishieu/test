@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Splash-7-Nov" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="front-page-1400" transform="translate(-64.000000, -1620.000000)" fill="#ffffff" fill-rule="nonzero">
+            <g id="footer" transform="translate(0.000000, 1424.000000)">
+                <g id="social" transform="translate(64.000000, 194.000000)">
+                    <g id="Group" transform="translate(0.000000, 2.000000)">
+                        <path d="M20,0 C22.209139,0 24,1.790861 24,4 L24,20 C24,22.209139 22.209139,24 20,24 L4,24 C1.790861,24 0,22.209139 0,20 L0,4 C0,1.790861 1.790861,0 4,0 L20,0 Z M8.95,9.4 L6.16,9.4 L6.16,17.5 L8.96,17.5 L8.96,9.4 L8.95,9.4 Z M15.79,9.21 C14.47,9.21 13.79,9.84 13.41,10.37 L13.28,10.55 L13.28,9.4 L10.49,9.4 L10.5,9.89 L10.5,17.5 L13.28,17.5 L13.28,12.98 C13.2464603,12.5565156 13.39167,12.1383192 13.6804411,11.8267503 C13.9692123,11.5151814 14.3751916,11.3386739 14.8,11.34 C15.76,11.34 16.17,12 16.21,13 L16.21,17.5 L19,17.5 L19,12.86 C19,10.37 17.63,9.21 15.8,9.21 L15.79,9.21 Z M7.58,5.5 C6.62,5.5 6,6.1 6,6.9 C6,7.63 6.54,8.22 7.38,8.3 L7.56,8.3 C8.53,8.3 9.13,7.68 9.13,6.9 C9.12,6.1 8.53,5.5 7.58,5.5 L7.58,5.5 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
